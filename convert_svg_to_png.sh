@@ -8,6 +8,7 @@ for file in `find ${DIR} -name "*.svg"`; do
 done
 
 # 拡張子からsvgを削除する
+# 上書きする場合は、fオプションをつける
 for file in `find ${DIR} -name "*.svg.png"`; do
-  rename -f "s/svg.png/png/;" $file
+  rename "s/svg.png/png/;" $file
 done
