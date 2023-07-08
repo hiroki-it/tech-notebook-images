@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-07-08T11:12:13.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="9T8rC59xULNFx0ZlED-2" version="21.2.8" type="device" pages="28">
+<mxfile host="Electron" modified="2023-07-08T11:07:47.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="qGZ6c1NjJ-nHihq6u2zW" version="21.2.8" type="device" pages="28">
   <diagram id="NFTd1XVwgBr1jvn32c2z" name="istio_incident">
-    <mxGraphModel dx="70" dy="51" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1514" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,7 +168,7 @@
           <mxGeometry x="699.5" y="1050" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NL2GBCrHEPWc24FQJrXI-55" value="❌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="237" y="947.5" width="20" height="25" as="geometry" />
+          <mxGeometry x="236" y="947.5" width="20" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
