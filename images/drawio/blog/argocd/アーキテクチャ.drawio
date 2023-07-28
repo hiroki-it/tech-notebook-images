@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-07-22T11:47:42.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="fAdQhS2sxa_xqvqCkult" version="21.2.8" type="device" pages="7">
+<mxfile host="Electron" modified="2023-07-28T02:37:56.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ndQXiPv8NnT270gy-l0j" version="21.2.8" type="device" pages="7">
   <diagram id="KUzLNLeJJXbzrk2OEPWb" name="凡例">
     <mxGraphModel dx="1224" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jMUcEqhmBBNj2RyltrqQ" name="repo-server">
-    <mxGraphModel dx="3887" dy="3339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3547" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -867,7 +867,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xVXrkwbpg_oVQ4MEPZML" name="dex-server">
-    <mxGraphModel dx="1224" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2448" dy="2905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1068,7 +1068,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9kGKovI-KAHEUzpYrKdn" name="argocd-server">
-    <mxGraphModel dx="1224" dy="3206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="3127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1396,7 +1396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="architecture" id="O-tFGCsAn2J3WFQleuDm">
-    <mxGraphModel dx="2051" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3547" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
