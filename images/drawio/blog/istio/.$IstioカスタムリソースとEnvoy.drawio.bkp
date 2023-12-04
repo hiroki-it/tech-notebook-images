@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-04T19:12:12.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="GACs29WY-bERMB1YIV16" version="21.2.8" type="device" pages="6">
+<mxfile host="Electron" modified="2023-12-04T19:23:04.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="2zrOFYtub9Rg4TpyX6i6" version="21.2.8" type="device" pages="6">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Cluster外からのHTTP通信 (Istioがない場合)">
     <mxGraphModel dx="1687" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,7 +356,7 @@
           <mxGeometry x="1145.42" y="1050" width="110.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2fSdUg8kFDWXkagiJmkq-4" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px; background-color: rgb(46, 108, 230);&quot;&gt;DR&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=default;fillColor=#2E6CE6;strokeColor=#FFFFFF;flipV=1;fontSize=17;" vertex="1" parent="X536_COExT2z9xk0NoNY-1">
-          <mxGeometry x="1160" y="868" width="81" height="81" as="geometry" />
+          <mxGeometry x="1160" y="864" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="2fSdUg8kFDWXkagiJmkq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;strokeWidth=2;" vertex="1" parent="X536_COExT2z9xk0NoNY-1">
           <mxGeometry x="920" y="760" width="160" height="310" as="geometry" />
@@ -893,7 +893,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Cluster内からのHTTP通信 (Envoyに注目)" id="x0qbxIF7UETOUaO0NYqG">
-    <mxGraphModel dx="1793" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1237,6 +1237,9 @@
         </mxCell>
         <mxCell id="eEXOWYbY0pS73kdn-XP--2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.certificate;" vertex="1" parent="1">
           <mxGeometry x="900" y="1119" width="35.96" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="_EtLao7cm-BlUwL--P5G-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.certificate;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1118.5" width="35.96" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
