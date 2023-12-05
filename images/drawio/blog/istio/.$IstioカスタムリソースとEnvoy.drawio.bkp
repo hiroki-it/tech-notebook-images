@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-04T19:23:04.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="2zrOFYtub9Rg4TpyX6i6" version="21.2.8" type="device" pages="6">
+<mxfile host="Electron" modified="2023-12-04T19:23:06.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="y-4atFF2FOR97vXafH0L" version="21.2.8" type="device" pages="6">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Cluster外からのHTTP通信 (Istioがない場合)">
     <mxGraphModel dx="1687" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1237,9 +1237,6 @@
         </mxCell>
         <mxCell id="eEXOWYbY0pS73kdn-XP--2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.certificate;" vertex="1" parent="1">
           <mxGeometry x="900" y="1119" width="35.96" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="_EtLao7cm-BlUwL--P5G-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.certificate;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1118.5" width="35.96" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
