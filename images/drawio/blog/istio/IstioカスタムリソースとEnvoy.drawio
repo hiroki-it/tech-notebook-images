@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-07T12:13:56.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="HrGKX-iysREAlriMI2G-" version="21.2.8" type="device" pages="18">
+<mxfile host="Electron" modified="2023-12-07T12:22:39.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="a1CtKC8luAtQMPY6MIUI" version="21.2.8" type="device" pages="18">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1912" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -817,7 +817,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (リソース)" id="ZnawRxD87FBF02wxXu29">
-    <mxGraphModel dx="1912" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A0O_9ekIIq0qfjkxogsm-0" />
         <mxCell id="A0O_9ekIIq0qfjkxogsm-1" parent="A0O_9ekIIq0qfjkxogsm-0" />
@@ -842,10 +842,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560.5" y="641" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="560" y="820" />
+              <mxPoint x="561" y="820" />
               <mxPoint x="800" y="820" />
-              <mxPoint x="800" y="641" />
-              <mxPoint x="800" y="641" />
+              <mxPoint x="800" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
