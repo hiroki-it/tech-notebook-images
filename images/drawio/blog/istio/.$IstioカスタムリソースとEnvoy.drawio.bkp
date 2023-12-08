@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-08T13:47:54.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="JZqxfesUv_-r2wi5FQQr" version="21.2.8" type="device" pages="18">
+<mxfile host="Electron" modified="2023-12-08T13:48:56.075Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="46_CA-NyumTgwVAh1_Su" version="21.2.8" type="device" pages="18">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1912" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3618,7 +3618,7 @@
             <mxPoint x="440" y="1240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O1REigjMIfgLC54sBQLC-30" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; HTTPS&amp;nbsp;&amp;nbsp;&lt;br&gt;(相互TLSとする)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="O1REigjMIfgLC54sBQLC-29" vertex="1" connectable="0">
+        <mxCell id="O1REigjMIfgLC54sBQLC-30" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;HTTPS&lt;br&gt;&amp;nbsp; (相互TLSとする)&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="O1REigjMIfgLC54sBQLC-29" vertex="1" connectable="0">
           <mxGeometry x="0.0053" y="-5" relative="1" as="geometry">
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
