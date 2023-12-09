@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-09T09:46:48.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="1LWCglgeC7bcKBSQZ7qJ" version="21.2.8" type="device" pages="19">
+<mxfile host="Electron" modified="2023-12-09T10:10:35.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="Ehq0hUyvu2Nd81bLOq-F" version="21.2.8" type="device" pages="19">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1912" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -690,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yi4LhDpt1uQF914wgPC8" name="Istioコントロールプレーンの仕組み">
-    <mxGraphModel dx="1366" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="755" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -714,7 +714,7 @@
             <mxPoint x="720" y="520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zVKDCBo7OZk8WqzVQmL8-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-wGNKpFmOwC4UjuMqDrP-2" target="zVKDCBo7OZk8WqzVQmL8-1">
+        <mxCell id="zVKDCBo7OZk8WqzVQmL8-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-wGNKpFmOwC4UjuMqDrP-2" target="-wGNKpFmOwC4UjuMqDrP-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="719.894543770924" y="709.22" as="sourcePoint" />
           </mxGeometry>
