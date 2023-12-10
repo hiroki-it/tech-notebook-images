@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-10T19:04:42.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="K986PNLMVpeJPBsZvTrX" version="21.2.8" type="device" pages="19">
+<mxfile host="Electron" modified="2023-12-10T19:36:17.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="SmqlVZ6Wbp_3ksGs4klR" version="21.2.8" type="device" pages="19">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1434" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3683,7 +3683,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れ)" id="wvw49OdbhbXOpj6LZ2rA">
-    <mxGraphModel dx="1147" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wQQI6_TFVuzextmugq0n-0" />
         <mxCell id="wQQI6_TFVuzextmugq0n-1" parent="wQQI6_TFVuzextmugq0n-0" />
@@ -3781,7 +3781,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8QAbl-e3aX0eZpq_MchH-18" value="" style="group" parent="wQQI6_TFVuzextmugq0n-1" vertex="1" connectable="0">
-          <mxGeometry x="428" y="880" width="130" height="60" as="geometry" />
+          <mxGeometry x="450" y="880" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8QAbl-e3aX0eZpq_MchH-19" value="" style="group;fillColor=default;" parent="8QAbl-e3aX0eZpq_MchH-18" vertex="1" connectable="0">
           <mxGeometry width="130" height="20" as="geometry" />
@@ -3875,13 +3875,13 @@
           <mxGeometry x="500" y="690" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8QAbl-e3aX0eZpq_MchH-61" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ホスト&amp;amp;パスベースで&lt;br&gt;Entryを絞り込む&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
-          <mxGeometry x="470" y="780" width="160" height="60" as="geometry" />
+          <mxGeometry x="470" y="780" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8QAbl-e3aX0eZpq_MchH-62" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Entryが無ければ&lt;br style=&quot;&quot;&gt;PassthroughClusterを選択&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
-          <mxGeometry x="558" y="880" width="162" height="60" as="geometry" />
+        <mxCell id="8QAbl-e3aX0eZpq_MchH-62" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Entryが無ければ&lt;br style=&quot;&quot;&gt;PassthroughCluster&lt;br&gt;を選択&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
+          <mxGeometry x="586" y="880" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8QAbl-e3aX0eZpq_MchH-63" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;エンドポイントに&lt;br&gt;L7ロードバランシング&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
-          <mxGeometry x="465" y="980" width="115" height="60" as="geometry" />
+        <mxCell id="8QAbl-e3aX0eZpq_MchH-63" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Podに&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;L7ロードバランシング&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
+          <mxGeometry x="465" y="980" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8QAbl-e3aX0eZpq_MchH-64" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontSize=9;fontColor=#000000;flipV=0;flipH=0;direction=east;rotation=-90;fontStyle=1" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
           <mxGeometry x="384" y="641.87" width="60" height="156.25" as="geometry" />
@@ -3920,8 +3920,8 @@
         <mxCell id="tapZoAA89Zqn3cjUS3mm-0" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
           <mxGeometry x="320" y="900" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KkOxW8Y8YoNZYJdfU9PL-0" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;LBアルゴリズムにより&lt;br style=&quot;border-color: var(--border-color); font-size: 10px;&quot;&gt;Entry配下&lt;br&gt;エンドポイントを選択&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
-          <mxGeometry x="310" y="900" width="120" height="70" as="geometry" />
+        <mxCell id="KkOxW8Y8YoNZYJdfU9PL-0" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;LBアルゴリズムにより&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Service配下&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Podを選択&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
+          <mxGeometry x="314" y="900" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WojFyRPrJ4IjFX97OFoE-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;perimeterSpacing=0;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
           <mxGeometry x="999.9300000000001" y="320" width="518.07" height="920" as="geometry" />
@@ -4068,7 +4068,7 @@
           <mxGeometry x="1268" y="690.01" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WojFyRPrJ4IjFX97OFoE-31" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;エントリ済みシステムの&lt;br&gt;エンドポイントに&lt;br&gt;送信&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
-          <mxGeometry x="1268" y="610" width="140" height="60" as="geometry" />
+          <mxGeometry x="1278" y="610" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EPlIWSsEoUwQmjeYN2lp-0" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Istio&lt;br&gt;EgressGateway&lt;br&gt;Pod&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="wQQI6_TFVuzextmugq0n-1" vertex="1">
           <mxGeometry x="1298" y="360" width="140" height="80" as="geometry" />
