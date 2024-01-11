@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-09T18:25:22.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="qfRGmywdyzO4Js8sjOiV" version="21.2.8" type="device" pages="22">
+<mxfile host="Electron" modified="2024-01-11T08:05:15.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="qtqWrxZYVXXYqgVvO02P" version="21.2.8" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Ingress (リソース)" id="1oA7CrM34tMVDH1NUp3j">
-    <mxGraphModel dx="1493" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JZ-M3ZHI_bXAW2bNUR1x-0" />
         <mxCell id="JZ-M3ZHI_bXAW2bNUR1x-1" parent="JZ-M3ZHI_bXAW2bNUR1x-0" />
@@ -323,7 +323,7 @@
             <mxPoint x="861" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ybMLIfy94V9XpRyjb7sB-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;(4)&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OJblmPAS-SgCgLIV1zas-3">
+        <mxCell id="ybMLIfy94V9XpRyjb7sB-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;(4)&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OJblmPAS-SgCgLIV1zas-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0678" y="-2" relative="1" as="geometry">
             <mxPoint x="-2" y="3" as="offset" />
           </mxGeometry>
@@ -401,7 +401,7 @@
             <mxPoint x="-2" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ybMLIfy94V9XpRyjb7sB-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;(1)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;HTTPS&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dsHBBp8TTHMsqzWUVn-E-1">
+        <mxCell id="ybMLIfy94V9XpRyjb7sB-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;(1)&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;HTTPS&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dsHBBp8TTHMsqzWUVn-E-1" vertex="1" connectable="0">
           <mxGeometry x="-0.58" relative="1" as="geometry">
             <mxPoint y="13" as="offset" />
           </mxGeometry>
@@ -1577,7 +1577,7 @@
         <mxCell id="AwiNiumlDeXevnnFJTh9-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(4) &lt;u&gt;HTTPフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
           <mxGeometry x="359.5" y="940.0499999999998" width="221" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D_eQZKtI-Ao-ReSxEA_o-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・L3/L4ヘッダーを読み取り/書き込み&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・後続のHTTPフィルターを制御する&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
+        <mxCell id="D_eQZKtI-Ao-ReSxEA_o-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・L7ヘッダーを読み取り/書き込み&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・後続のHTTPフィルターを制御する&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
           <mxGeometry x="359.78" y="840" width="221" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AwiNiumlDeXevnnFJTh9-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(3) &lt;u&gt;ネットワークフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
