@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-13T11:40:44.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="wDff1CXrzJqv0OPld-tO" version="21.2.8" type="device" pages="22">
+<mxfile host="Electron" modified="2024-01-13T14:16:49.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="zwEfKKLYAuq6nenEznW2" version="21.2.8" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3433,7 +3433,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (istio-proxyとリソース)" id="yerDVJQuHadiCCGZ_XnA">
-    <mxGraphModel dx="1434" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rKMauFRVNekqnuhkVDw3-0" />
         <mxCell id="rKMauFRVNekqnuhkVDw3-1" parent="rKMauFRVNekqnuhkVDw3-0" />
@@ -3642,7 +3642,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Ingress (Envoyの処理の流れ)" id="SMx_5iG4DdBgWytRHT7A">
-    <mxGraphModel dx="1509" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-0" />
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-1" parent="J9eQ5NTE3BfOpKkiA1OE-0" />
@@ -3677,9 +3677,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TUgROO-j6AzJZHS4UZe-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;iptablesリダイレクト&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="J9eQ5NTE3BfOpKkiA1OE-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.5605" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="WbU1Lq6fsPQHekg-yCvc-0" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;/:50000&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="J9eQ5NTE3BfOpKkiA1OE-7">
+          <mxGeometry x="-0.5325" y="-3" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="J9eQ5NTE3BfOpKkiA1OE-1" source="J9eQ5NTE3BfOpKkiA1OE-15" target="J9eQ5NTE3BfOpKkiA1OE-40" edge="1">
@@ -4066,10 +4066,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYSbYO9SzLFrstDeU5Ks-0" value="" style="group;fillColor=default;" vertex="1" connectable="0" parent="J9eQ5NTE3BfOpKkiA1OE-1">
+        <mxCell id="EYSbYO9SzLFrstDeU5Ks-0" value="" style="group;fillColor=default;" parent="J9eQ5NTE3BfOpKkiA1OE-1" vertex="1" connectable="0">
           <mxGeometry x="1163.49" y="630" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EYSbYO9SzLFrstDeU5Ks-1" value="127.0.0.6:50000" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=none;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="EYSbYO9SzLFrstDeU5Ks-0">
+        <mxCell id="EYSbYO9SzLFrstDeU5Ks-1" value="127.0.0.6:50000" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=none;fontColor=#333333;strokeColor=#000000;" parent="EYSbYO9SzLFrstDeU5Ks-0" vertex="1">
           <mxGeometry width="140" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -4330,7 +4330,7 @@
             <mxPoint x="460" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6Cbjtbc348Iu7I0cO4J9-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;iptablesリダイレクト&lt;br&gt;/:50010&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6Cbjtbc348Iu7I0cO4J9-1" vertex="1" connectable="0">
+        <mxCell id="6Cbjtbc348Iu7I0cO4J9-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;/:50010&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6Cbjtbc348Iu7I0cO4J9-1" vertex="1" connectable="0">
           <mxGeometry x="0.0102" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4487,7 +4487,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れ)" id="wvw49OdbhbXOpj6LZ2rA">
-    <mxGraphModel dx="1434" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wQQI6_TFVuzextmugq0n-0" />
         <mxCell id="wQQI6_TFVuzextmugq0n-1" parent="wQQI6_TFVuzextmugq0n-0" />
@@ -4624,7 +4624,7 @@
             <mxPoint x="460" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8QAbl-e3aX0eZpq_MchH-80" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;iptablesリダイレクト&lt;br&gt;external.com:443&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8QAbl-e3aX0eZpq_MchH-79" vertex="1" connectable="0">
+        <mxCell id="8QAbl-e3aX0eZpq_MchH-80" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;external.com:443&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8QAbl-e3aX0eZpq_MchH-79" vertex="1" connectable="0">
           <mxGeometry x="0.0102" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
