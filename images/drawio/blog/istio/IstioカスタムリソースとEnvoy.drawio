@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-13T14:16:49.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="zwEfKKLYAuq6nenEznW2" version="21.2.8" type="device" pages="22">
+<mxfile host="Electron" modified="2024-01-15T04:42:05.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="eQMU00fvtqpVS435-C9a" version="21.2.8" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1483,7 +1483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Envoyのフィルター" id="edrjcSshP08RBfhVo-iF">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="437" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-0" />
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-1" parent="D_eQZKtI-Ao-ReSxEA_o-0" />
@@ -1554,7 +1554,7 @@
           <mxGeometry x="250" y="1127.25" width="30" height="25.5" as="geometry" />
         </mxCell>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-56" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontSize=9;fontColor=#000000;flipV=0;flipH=0;direction=east;rotation=-90;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="226.88" y="682.6" width="486.79" height="279.65" as="geometry" />
+          <mxGeometry x="217" y="679.6" width="506.56" height="279.65" as="geometry" />
         </mxCell>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-58" value="" style="group;fillColor=default;fontSize=10;container=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1" connectable="0">
           <mxGeometry x="398.78" y="1010.05" width="140" height="30" as="geometry" />
@@ -1566,7 +1566,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AwiNiumlDeXevnnFJTh9-10" value="" style="group;fillColor=#FFCCCC;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1" connectable="0">
-          <mxGeometry x="359.78" y="600" width="221" height="110" as="geometry" />
+          <mxGeometry x="359.78" y="590" width="221" height="110" as="geometry" />
         </mxCell>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・リダイレクト前の元の宛先を取得&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・HTTPであるかを確認&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・TLSで暗号化された通信かを確認&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="AwiNiumlDeXevnnFJTh9-10" vertex="1">
           <mxGeometry y="25" width="221" height="85" as="geometry" />
@@ -1575,16 +1575,16 @@
           <mxGeometry width="221.00000000000003" height="25" as="geometry" />
         </mxCell>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;・ポート番号でルートを絞り込み&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;・ホスト/パスでクラスターを絞り込み&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="359.5" y="970.05" width="221" height="70" as="geometry" />
+          <mxGeometry x="360" y="980" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AwiNiumlDeXevnnFJTh9-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(4) &lt;u&gt;HTTPフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="359.5" y="940.0499999999998" width="221" height="30" as="geometry" />
+          <mxGeometry x="360" y="950" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・L7ヘッダーを読み取る&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・後続のHTTPフィルターを制御する&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="359.78" y="840" width="221" height="70" as="geometry" />
+          <mxGeometry x="360" y="842" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AwiNiumlDeXevnnFJTh9-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(3) &lt;u&gt;ネットワークフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="359.78" y="809.9999999999999" width="221" height="30" as="geometry" />
+          <mxGeometry x="360" y="812" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YQLjKfFAEFbVYvYamdFz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" source="D_eQZKtI-Ao-ReSxEA_o-60" target="Xu05fD9fHbHPRhqMBwPC-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1623,16 +1623,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xu05fD9fHbHPRhqMBwPC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" source="Xu05fD9fHbHPRhqMBwPC-3" target="AwiNiumlDeXevnnFJTh9-8" edge="1">
+        <mxCell id="Xu05fD9fHbHPRhqMBwPC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" source="Xu05fD9fHbHPRhqMBwPC-3" target="AwiNiumlDeXevnnFJTh9-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="780" />
-              <mxPoint x="470" y="780" />
+              <mxPoint x="470" y="812" />
             </Array>
+            <mxPoint x="470" y="812.4158004158004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xu05fD9fHbHPRhqMBwPC-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(2) L7ヘッダーを復号化&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="383.68" y="745.64" width="172.64" height="30" as="geometry" />
+        <mxCell id="Xu05fD9fHbHPRhqMBwPC-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;L7ヘッダーを復号化&lt;br&gt;(クラスター時に暗号化)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
+          <mxGeometry x="370" y="730" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9GwlNn0x1R92apZkcUob-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" source="D_eQZKtI-Ao-ReSxEA_o-4" target="D_eQZKtI-Ao-ReSxEA_o-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1647,7 +1647,7 @@
           <mxGeometry x="466.78" y="1303.53" width="8" height="44.94" as="geometry" />
         </mxCell>
         <mxCell id="UedrbW4ViZYgXeAy3g6x-5" value="" style="group" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1" connectable="0">
-          <mxGeometry x="437.46" y="1082" width="65.63999999999999" height="20" as="geometry" />
+          <mxGeometry x="437.46" y="1086" width="65.63999999999999" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UedrbW4ViZYgXeAy3g6x-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;strokeColor=none;" parent="UedrbW4ViZYgXeAy3g6x-5" vertex="1">
           <mxGeometry width="65.64" height="20" as="geometry" />
@@ -1659,7 +1659,7 @@
           <mxGeometry x="30.680000000000064" y="-9.38000000000011" width="5.28" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UedrbW4ViZYgXeAy3g6x-6" value="" style="group" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1" connectable="0">
-          <mxGeometry x="438" y="536" width="65.63999999999999" height="20" as="geometry" />
+          <mxGeometry x="438" y="530" width="65.63999999999999" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UedrbW4ViZYgXeAy3g6x-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;strokeColor=none;" parent="UedrbW4ViZYgXeAy3g6x-6" vertex="1">
           <mxGeometry width="65.64" height="20" as="geometry" />
@@ -1669,6 +1669,9 @@
         </mxCell>
         <mxCell id="UedrbW4ViZYgXeAy3g6x-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;fontSize=26;direction=south;rotation=90;" parent="UedrbW4ViZYgXeAy3g6x-6" vertex="1">
           <mxGeometry x="30.680000000000064" y="-9.38000000000011" width="5.28" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YP5dEiwrSioYMwx5saPT-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;(2)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="D_eQZKtI-Ao-ReSxEA_o-1">
+          <mxGeometry x="370" y="730" width="30" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
