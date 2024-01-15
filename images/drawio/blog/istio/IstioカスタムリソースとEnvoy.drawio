@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-15T16:54:59.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="cT5nvWMdKHJKtwhuH_3V" version="21.2.8" type="device" pages="22">
+<mxfile host="Electron" modified="2024-01-15T17:03:11.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="mYylFli9sUXYEz8xzKRp" version="21.2.8" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
     <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1712,7 +1712,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-8UCVldB6iNRoiV7r2Nt-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;(2)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvS-SOf5bmHbLXXsGnp--6" vertex="1" connectable="0">
+        <mxCell id="-8UCVldB6iNRoiV7r2Nt-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvS-SOf5bmHbLXXsGnp--6" vertex="1" connectable="0">
           <mxGeometry x="-0.6719" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2932,7 +2932,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れとカスタムリソース)" id="Ci9qoeH61k-ZMg7y818T">
-    <mxGraphModel dx="3060" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BF0rngSArHmndiV59J_N-0" />
         <mxCell id="BF0rngSArHmndiV59J_N-1" parent="BF0rngSArHmndiV59J_N-0" />
@@ -3630,7 +3630,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Ingress (Envoyの処理の流れ)" id="SMx_5iG4DdBgWytRHT7A">
-    <mxGraphModel dx="1883" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-0" />
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-1" parent="J9eQ5NTE3BfOpKkiA1OE-0" />
@@ -4054,7 +4054,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Cluster内サービス間通信 (Envoyの処理の流れ)" id="z9VCXJ_jtuYy1EGxyx6l">
-    <mxGraphModel dx="278" dy="206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4CQJdo-nsVQskajX4jhf-0" />
         <mxCell id="4CQJdo-nsVQskajX4jhf-1" parent="4CQJdo-nsVQskajX4jhf-0" />
