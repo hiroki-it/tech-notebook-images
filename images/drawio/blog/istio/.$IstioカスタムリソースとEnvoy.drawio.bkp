@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-15T16:54:59.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="cT5nvWMdKHJKtwhuH_3V" version="21.2.8" type="device" pages="22">
+<mxfile host="Electron" modified="2024-01-16T16:52:32.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="t-BZEoTfbx3LGrbz_EPQ" version="22.1.18" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,7 +625,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yi4LhDpt1uQF914wgPC8" name="Istioコントロールプレーンの仕組み">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -688,7 +688,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wGNKpFmOwC4UjuMqDrP-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Config&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Injestion&lt;br&gt;レイヤー&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;strokeColor=default;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="-wGNKpFmOwC4UjuMqDrP-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Config i&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;njestion&lt;br&gt;レイヤー&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;strokeColor=default;verticalAlign=middle;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="640" y="520" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lWGTHY4byY1nOKiBnO9W-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="-wGNKpFmOwC4UjuMqDrP-4" target="-wGNKpFmOwC4UjuMqDrP-5" edge="1">
@@ -1483,7 +1483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Envoyのフィルター" id="edrjcSshP08RBfhVo-iF">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-0" />
         <mxCell id="D_eQZKtI-Ao-ReSxEA_o-1" parent="D_eQZKtI-Ao-ReSxEA_o-0" />
@@ -1631,7 +1631,7 @@
             <mxPoint x="470" y="812.4158004158004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xu05fD9fHbHPRhqMBwPC-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;L7ヘッダーを復号化&lt;br&gt;(クラスター時に暗号化)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
+        <mxCell id="Xu05fD9fHbHPRhqMBwPC-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
           <mxGeometry x="370" y="730" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9GwlNn0x1R92apZkcUob-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" parent="D_eQZKtI-Ao-ReSxEA_o-1" source="D_eQZKtI-Ao-ReSxEA_o-4" target="D_eQZKtI-Ao-ReSxEA_o-3" edge="1">
@@ -1671,7 +1671,10 @@
           <mxGeometry x="30.680000000000064" y="-9.38000000000011" width="5.28" height="35" as="geometry" />
         </mxCell>
         <mxCell id="YP5dEiwrSioYMwx5saPT-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;(2)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;verticalAlign=middle;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
-          <mxGeometry x="370" y="730" width="30" height="50" as="geometry" />
+          <mxGeometry x="380" y="730" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X2KNCIuoowKdcfcj7iPu-0" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;L7のアプリデータを復号化&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(クラスター時に暗号化)&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="D_eQZKtI-Ao-ReSxEA_o-1">
+          <mxGeometry x="405" y="730.64" width="151.22" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1712,7 +1715,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-8UCVldB6iNRoiV7r2Nt-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;(2)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvS-SOf5bmHbLXXsGnp--6" vertex="1" connectable="0">
+        <mxCell id="-8UCVldB6iNRoiV7r2Nt-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvS-SOf5bmHbLXXsGnp--6" vertex="1" connectable="0">
           <mxGeometry x="-0.6719" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2932,7 +2935,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れとカスタムリソース)" id="Ci9qoeH61k-ZMg7y818T">
-    <mxGraphModel dx="3060" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BF0rngSArHmndiV59J_N-0" />
         <mxCell id="BF0rngSArHmndiV59J_N-1" parent="BF0rngSArHmndiV59J_N-0" />
@@ -3630,7 +3633,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Ingress (Envoyの処理の流れ)" id="SMx_5iG4DdBgWytRHT7A">
-    <mxGraphModel dx="1883" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-0" />
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-1" parent="J9eQ5NTE3BfOpKkiA1OE-0" />
@@ -4054,7 +4057,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Cluster内サービス間通信 (Envoyの処理の流れ)" id="z9VCXJ_jtuYy1EGxyx6l">
-    <mxGraphModel dx="278" dy="206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4CQJdo-nsVQskajX4jhf-0" />
         <mxCell id="4CQJdo-nsVQskajX4jhf-1" parent="4CQJdo-nsVQskajX4jhf-0" />
