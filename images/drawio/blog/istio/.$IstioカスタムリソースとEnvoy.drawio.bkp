@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-16T16:52:32.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="t-BZEoTfbx3LGrbz_EPQ" version="22.1.18" type="device" pages="22">
+<mxfile host="Electron" modified="2024-04-06T03:18:19.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="m9RseXdr_isE6fqN-puU" version="24.0.4" type="device" pages="22">
   <diagram id="3hUjVu3DdGYcXSlyDUTy" name="Ingress (Istioがない場合)">
-    <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1580,7 +1580,7 @@
         <mxCell id="AwiNiumlDeXevnnFJTh9-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(4) &lt;u&gt;HTTPフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
           <mxGeometry x="360" y="950" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D_eQZKtI-Ao-ReSxEA_o-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・L7ヘッダーを読み取る&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・後続のHTTPフィルターを制御する&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
+        <mxCell id="D_eQZKtI-Ao-ReSxEA_o-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・L7のアプリデータを読み取る&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・後続のHTTPフィルターを制御する&lt;/span&gt;&lt;/div&gt;&lt;br&gt;など" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
           <mxGeometry x="360" y="842" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AwiNiumlDeXevnnFJTh9-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(3) &lt;u&gt;ネットワークフィルター&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="D_eQZKtI-Ao-ReSxEA_o-1" vertex="1">
@@ -2935,7 +2935,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れとカスタムリソース)" id="Ci9qoeH61k-ZMg7y818T">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BF0rngSArHmndiV59J_N-0" />
         <mxCell id="BF0rngSArHmndiV59J_N-1" parent="BF0rngSArHmndiV59J_N-0" />
@@ -3419,7 +3419,7 @@
         <mxCell id="F5TZlpm44EtOL_SkKWCI-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;エンドポイント B1①&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="F5TZlpm44EtOL_SkKWCI-16" vertex="1">
           <mxGeometry x="10.285000000000025" y="8.884999999999991" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="F5TZlpm44EtOL_SkKWCI-19" value="エンドポイント B2②" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="F5TZlpm44EtOL_SkKWCI-16" vertex="1">
+        <mxCell id="F5TZlpm44EtOL_SkKWCI-19" value="エンドポイント B1②" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="F5TZlpm44EtOL_SkKWCI-16" vertex="1">
           <mxGeometry x="10.285000000000025" y="28.88499999999999" width="129.92" height="20" as="geometry" />
         </mxCell>
         <mxCell id="F5TZlpm44EtOL_SkKWCI-20" value="エンドポイント B3③" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;" parent="F5TZlpm44EtOL_SkKWCI-16" vertex="1">
@@ -3429,7 +3429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (istio-proxyとリソース)" id="yerDVJQuHadiCCGZ_XnA">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rKMauFRVNekqnuhkVDw3-0" />
         <mxCell id="rKMauFRVNekqnuhkVDw3-1" parent="rKMauFRVNekqnuhkVDw3-0" />
@@ -3633,7 +3633,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Ingress (Envoyの処理の流れ)" id="SMx_5iG4DdBgWytRHT7A">
-    <mxGraphModel dx="1224" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-0" />
         <mxCell id="J9eQ5NTE3BfOpKkiA1OE-1" parent="J9eQ5NTE3BfOpKkiA1OE-0" />
@@ -4465,7 +4465,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Egress (Envoyの処理の流れ)" id="wvw49OdbhbXOpj6LZ2rA">
-    <mxGraphModel dx="2720" dy="2011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wQQI6_TFVuzextmugq0n-0" />
         <mxCell id="wQQI6_TFVuzextmugq0n-1" parent="wQQI6_TFVuzextmugq0n-0" />
