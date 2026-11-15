@@ -31,10 +31,16 @@
 images/
 ├── <カテゴリ>/          # tech-notebook の docs/<カテゴリ> から参照する画像
 │   └── drawio/          # 画像の編集元の drawio ファイル
-└── blog/<トピック>/     # はてなブログ (hiroki-it/hatenablog) から参照する画像
+└── drawio/blog/<トピック>/  # はてなブログ (hiroki-it/hatenablog) から参照する画像
 ```
 
 - tech-notebook から参照する画像は、参照元ノートと同じカテゴリのディレクトリに置く
-- はてなブログから参照する画像は `images/blog/<トピック>/` に置く (公開済み記事が URL を直接参照するため、移動や削除をしない)
+- はてなブログから参照する画像は `images/drawio/blog/<トピック>/` に置く
+- 公開済みのはてなブログ記事は URL を直接参照するため、`images/drawio/blog/` 配下と次の画像は移動や削除をしない
+  - `images/admission-controllers_mutating-admission.png`
+  - `images/canary_release_origin.png`
+  - `images/istio_sidecar-mesh_architecture.png`
+  - `images/kubernetes_admission-controllers_architecture.png`
+  - `images/kubernetes_kube-apiserver_communication.png`
 
-drawio ファイルと、`images/blog` 配下の svg ファイルは画像の編集元であるため、ファイル名のルールの対象外とする。
+drawio ファイルと、`images/drawio/blog` 配下のファイルは、ファイル名のルールの対象外とする。
