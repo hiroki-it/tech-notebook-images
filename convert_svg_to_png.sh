@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=./images/infrastructure_as_code/drawio/terraform
+DIR=./images/blog/terraform
 
 # svgをpngに変換する
 for file in `find ${DIR} -name "*.svg"`; do

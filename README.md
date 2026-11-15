@@ -25,4 +25,16 @@
 ^[a-z0-9]+(-[a-z0-9]+)*(_[a-z0-9]+(-[a-z0-9]+)*)*\.(png|jpg|gif|svg)$
 ```
 
-drawio ファイル (`images/drawio` 配下、`images/platform-engineering-on-kubernetes` 配下) と、`images/drawio` 配下の svg ファイルは画像の編集元であるため、このルールの対象外とする。
+## ディレクトリ構成
+
+```
+images/
+├── <カテゴリ>/          # tech-notebook の docs/<カテゴリ> から参照する画像
+│   └── drawio/          # 画像の編集元の drawio ファイル
+└── blog/<トピック>/     # はてなブログ (hiroki-it/hatenablog) から参照する画像
+```
+
+- tech-notebook から参照する画像は、参照元ノートと同じカテゴリのディレクトリに置く
+- はてなブログから参照する画像は `images/blog/<トピック>/` に置く (公開済み記事が URL を直接参照するため、移動や削除をしない)
+
+drawio ファイルと、`images/blog` 配下の svg ファイルは画像の編集元であるため、ファイル名のルールの対象外とする。
